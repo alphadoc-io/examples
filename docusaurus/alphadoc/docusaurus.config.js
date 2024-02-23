@@ -10,10 +10,10 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Alphadoc",
   tagline: "Alphadoc ❤️ Docusaurus",
-  favicon: "img/favicon.ico",
+  favicon: "img/alphadoc-favicon.png",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://alphadoc.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -39,14 +39,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/alphadoc-io/examples/tree/main/docusaurus/alphadoc",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/alphadoc-io/examples/tree/main/docusaurus/alphadoc",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -94,7 +94,7 @@ const config = {
             ],
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/alphadoc-io/examples",
             label: "GitHub",
             position: "right",
           },
@@ -107,25 +107,25 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Alphadoc Documentation",
+                to: "https://docs.alphadoc.io",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Alphadoc",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Website",
+                href: "https://alphadoc.io",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Create an account",
+                href: "https://app.alphadoc.io/sign-up",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Sign in",
+                href: "https://app.alphadoc.io/sign-in",
               },
             ],
           },
@@ -133,17 +133,13 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/alphadoc-io/examples",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Built with Docusaurus and Alphadoc. ❤️ from Amsterdam`,
       },
       prism: {
         theme: prismThemes.github,
